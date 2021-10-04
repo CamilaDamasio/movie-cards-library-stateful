@@ -1,0 +1,136 @@
+body {
+  background-color: rgb(61, 83, 97);
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.movie-card-header {
+  align-items: center;
+  background-color: #343a40;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+.page-title {
+  color: #f8f9fa;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.movie-list {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 48px 30px;
+}
+
+.movie-card {
+  background-color: white;
+  border: 3px solid rgba(36, 253, 7, 0.527);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  margin: auto auto 5%;
+  overflow: hidden;
+  width: 300px;
+}
+
+
+.movie-card-image {
+  width: 100%;
+}
+
+.movie-card-body {
+  flex: 1 1 auto;
+  padding: 20px;
+}
+
+.movie-card-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 12px;
+}
+
+.movie-card-subtitle {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 8px;
+}
+
+.movie-card-storyline {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.rating {
+  background-color: #007bff;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 3px 9px;
+}
+
+.movie-card-rating {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 20px;
+}
+
+.search {
+  border-radius: 3px;
+  margin-left: 5%;
+}
+
+form {
+  align-items: center;
+  color: white;
+  margin: auto;
+}
+
+h2 {
+  color: #1f965e;
+  padding: 3%;
+  text-align: center;
+}
+
+[data-testid="add-movie-form"] {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+[data-testid="title-input-label"] {
+  display: flex;
+  min-width: 80%;
+}
+
+[data-testid="title-input"] {
+  display: flex;
+  max-width: 80%;
+}
+
+/* [data-testid="subtitle-input-label"] {
+  display: flex;
+  min-width: 80%;
+}
+
+[data-testid="subtitle-input"] {
+  min-width: 80%;
+  margin: 0 auto 10px;
+  margin: auto;
+}
+
+[data-testid="image-input-label"] {
+  display: flex;
+  min-width: 80%;
+}
+
+[data-testid="image-input"] {
+  min-width: 80%;
+} */
