@@ -167,25 +167,31 @@ class AddMovie extends React.Component {
         onSubmit={ this.resetState }
         data-testid="add-movie-form"
       >
-        { this.renderTitle(title) }
-        { this.renderSubtitle(subtitle) }
-        { this.renderImagePath(imagePath) }
-        { this.renderStoryline(storyline) }
-        { this.renderRating(rating) }
-        { this.renderGenre(genre) }
+        <div className="first-form">
+          { this.renderTitle(title) }
+          { this.renderSubtitle(subtitle) }
+          { this.renderImagePath(imagePath) }
+        </div>
+        <div className="secound-form">
+          { this.renderStoryline(storyline) }
+        </div>
+        <div className="third-form">
+          { this.renderRating(rating) }
+          { this.renderGenre(genre) }
 
-        {/* Requisito 14 feito na monitoria individual com a
+          {/* Requisito 14 feito na monitoria individual com a
         ajuda do monitor M. Daniel! */}
-        <button
-          type="button"
-          onClick={ () => {
-            onClick(this.state);
-            this.handleClick();
-          } }
-          data-testid="send-button"
-        >
-          Adicionar filme
-        </button>
+          <button
+            type="button"
+            onClick={ () => {
+              onClick(this.state);
+              this.handleClick();
+            } }
+            data-testid="send-button"
+          >
+            Adicionar filme
+          </button>
+        </div>
       </form>
     );
   }
