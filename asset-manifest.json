@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/movie-cards-library-stateful/static/css/main.473a7ebb.chunk.css",
-    "main.js": "/movie-cards-library-stateful/static/js/main.6cf747eb.chunk.js",
-    "main.js.map": "/movie-cards-library-stateful/static/js/main.6cf747eb.chunk.js.map",
+    "main.css": "/movie-cards-library-stateful/static/css/main.6f83fd27.chunk.css",
+    "main.js": "/movie-cards-library-stateful/static/js/main.44a39fd6.chunk.js",
+    "main.js.map": "/movie-cards-library-stateful/static/js/main.44a39fd6.chunk.js.map",
     "runtime-main.js": "/movie-cards-library-stateful/static/js/runtime-main.2979b9ff.js",
     "runtime-main.js.map": "/movie-cards-library-stateful/static/js/runtime-main.2979b9ff.js.map",
     "static/js/2.711ad2a9.chunk.js": "/movie-cards-library-stateful/static/js/2.711ad2a9.chunk.js",
     "static/js/2.711ad2a9.chunk.js.map": "/movie-cards-library-stateful/static/js/2.711ad2a9.chunk.js.map",
     "index.html": "/movie-cards-library-stateful/index.html",
-    "precache-manifest.e26c99c0801221d3e4de36411cfd3bb3.js": "/movie-cards-library-stateful/precache-manifest.e26c99c0801221d3e4de36411cfd3bb3.js",
+    "precache-manifest.6ae0ffcef6a41809096504b6a1f194c5.js": "/movie-cards-library-stateful/precache-manifest.6ae0ffcef6a41809096504b6a1f194c5.js",
     "service-worker.js": "/movie-cards-library-stateful/service-worker.js",
-    "static/css/main.473a7ebb.chunk.css.map": "/movie-cards-library-stateful/static/css/main.473a7ebb.chunk.css.map",
+    "static/css/main.6f83fd27.chunk.css.map": "/movie-cards-library-stateful/static/css/main.6f83fd27.chunk.css.map",
     "static/js/2.711ad2a9.chunk.js.LICENSE.txt": "/movie-cards-library-stateful/static/js/2.711ad2a9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2979b9ff.js",
     "static/js/2.711ad2a9.chunk.js",
-    "static/css/main.473a7ebb.chunk.css",
-    "static/js/main.6cf747eb.chunk.js"
+    "static/css/main.6f83fd27.chunk.css",
+    "static/js/main.44a39fd6.chunk.js"
   ]
 }
